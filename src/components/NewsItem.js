@@ -18,7 +18,7 @@ const NewsItem = (props) => {
               position: "absolute",
               right: "0",
             }}
-            class="badge rounded-pill bg-danger">
+            className="badge rounded-pill bg-danger">
             {source}
           </span>
         </div>

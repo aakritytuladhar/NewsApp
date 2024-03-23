@@ -8,6 +8,7 @@ import News from "./components/News";
 import LoadingBar from "react-top-loading-bar";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Contact from "./components/Contact";
 const App = () => {
   // export default class App extends Component {
   const pageSize = 5;
@@ -126,7 +127,10 @@ const App = () => {
                 category="technology"
               />
             }></Route>
+          <Route path="/contact" element={<Contact />} />
         </Routes>
+        {/* <Routes> */}
+        {/* </Routes> */}
       </Router>
     </div>
   );
